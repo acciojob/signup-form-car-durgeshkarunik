@@ -8,12 +8,15 @@
 
 <body>
 	<form method="post">
+		<label for="name">Name:</label>
     <input type="text" name="name" id="name" placeholder="Name" required><br>
-<input type="email" name="Email" id="email" placeholder="Email" required><br>
+ <label for="email">Email:</label>		
+<input type="email" name="Email" id="email" placeholder="Email" required><br> <br>
+		<label>Gender:- </label>
 <label for="male">male</label>
-<input type="radio" name="gender" id="gender_m"required> <br>
+<input type="radio" name="gender" id="gender_m"required> 
 <label for="female">female</label>
-<input type="radio" name="gender" id="gender_f"required> <br>
+<input type="radio" name="gender" id="gender_f"required> <br><br>
 <label for="cars"> Car brands</label>
 <select name="Car Brands" id="cars" placeholder="--Please choose an option--"required> <br>
     <option value="audi">audi</option>
@@ -31,7 +34,7 @@
 <label for="I agree to TOS">I agree to TOS</label>
 <input type="checkbox" name="i agree to the TOS" id="tos"required> <br><br>
 
-<input type="submit" value="submit">
+<button type="submit">Sign Up</button>
 </form>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
